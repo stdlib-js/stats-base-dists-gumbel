@@ -35,30 +35,20 @@ limitations under the License.
 
 > Gumbel distribution.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/stats-base-dists-gumbel
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var gumbel = require( '@stdlib/stats-base-dists-gumbel' );
+import gumbel from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel@esm/index.mjs';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { Gumbel, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel@esm/index.mjs';
 ```
 
 #### gumbel
@@ -119,7 +109,7 @@ The namespace contains a constructor function for creating a [Gumbel][gumbel-dis
 <!-- </toc> -->
 
 ```javascript
-var Gumbel = require( '@stdlib/stats-base-dists-gumbel' ).Gumbel;
+var Gumbel = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel' ).Gumbel;
 
 var dist = new Gumbel( 2.0, 4.0 );
 
@@ -139,11 +129,20 @@ var y = dist.pdf( 2.0 );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var gumbel = require( '@stdlib/stats-base-dists-gumbel' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
+import gumbel from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel@esm/index.mjs';
 
 console.log( objectKeys( gumbel ) );
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -167,7 +166,7 @@ console.log( objectKeys( gumbel ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -231,35 +230,35 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/gumbel/ctor]: https://github.com/stdlib-js/stats-base-dists-gumbel-ctor
+[@stdlib/stats/base/dists/gumbel/ctor]: https://github.com/stdlib-js/stats-base-dists-gumbel-ctor/tree/esm
 
-[@stdlib/stats/base/dists/gumbel/entropy]: https://github.com/stdlib-js/stats-base-dists-gumbel-entropy
+[@stdlib/stats/base/dists/gumbel/entropy]: https://github.com/stdlib-js/stats-base-dists-gumbel-entropy/tree/esm
 
-[@stdlib/stats/base/dists/gumbel/kurtosis]: https://github.com/stdlib-js/stats-base-dists-gumbel-kurtosis
+[@stdlib/stats/base/dists/gumbel/kurtosis]: https://github.com/stdlib-js/stats-base-dists-gumbel-kurtosis/tree/esm
 
-[@stdlib/stats/base/dists/gumbel/mean]: https://github.com/stdlib-js/stats-base-dists-gumbel-mean
+[@stdlib/stats/base/dists/gumbel/mean]: https://github.com/stdlib-js/stats-base-dists-gumbel-mean/tree/esm
 
-[@stdlib/stats/base/dists/gumbel/median]: https://github.com/stdlib-js/stats-base-dists-gumbel-median
+[@stdlib/stats/base/dists/gumbel/median]: https://github.com/stdlib-js/stats-base-dists-gumbel-median/tree/esm
 
-[@stdlib/stats/base/dists/gumbel/mode]: https://github.com/stdlib-js/stats-base-dists-gumbel-mode
+[@stdlib/stats/base/dists/gumbel/mode]: https://github.com/stdlib-js/stats-base-dists-gumbel-mode/tree/esm
 
-[@stdlib/stats/base/dists/gumbel/skewness]: https://github.com/stdlib-js/stats-base-dists-gumbel-skewness
+[@stdlib/stats/base/dists/gumbel/skewness]: https://github.com/stdlib-js/stats-base-dists-gumbel-skewness/tree/esm
 
-[@stdlib/stats/base/dists/gumbel/stdev]: https://github.com/stdlib-js/stats-base-dists-gumbel-stdev
+[@stdlib/stats/base/dists/gumbel/stdev]: https://github.com/stdlib-js/stats-base-dists-gumbel-stdev/tree/esm
 
-[@stdlib/stats/base/dists/gumbel/variance]: https://github.com/stdlib-js/stats-base-dists-gumbel-variance
+[@stdlib/stats/base/dists/gumbel/variance]: https://github.com/stdlib-js/stats-base-dists-gumbel-variance/tree/esm
 
-[@stdlib/stats/base/dists/gumbel/cdf]: https://github.com/stdlib-js/stats-base-dists-gumbel-cdf
+[@stdlib/stats/base/dists/gumbel/cdf]: https://github.com/stdlib-js/stats-base-dists-gumbel-cdf/tree/esm
 
-[@stdlib/stats/base/dists/gumbel/logcdf]: https://github.com/stdlib-js/stats-base-dists-gumbel-logcdf
+[@stdlib/stats/base/dists/gumbel/logcdf]: https://github.com/stdlib-js/stats-base-dists-gumbel-logcdf/tree/esm
 
-[@stdlib/stats/base/dists/gumbel/logpdf]: https://github.com/stdlib-js/stats-base-dists-gumbel-logpdf
+[@stdlib/stats/base/dists/gumbel/logpdf]: https://github.com/stdlib-js/stats-base-dists-gumbel-logpdf/tree/esm
 
-[@stdlib/stats/base/dists/gumbel/mgf]: https://github.com/stdlib-js/stats-base-dists-gumbel-mgf
+[@stdlib/stats/base/dists/gumbel/mgf]: https://github.com/stdlib-js/stats-base-dists-gumbel-mgf/tree/esm
 
-[@stdlib/stats/base/dists/gumbel/pdf]: https://github.com/stdlib-js/stats-base-dists-gumbel-pdf
+[@stdlib/stats/base/dists/gumbel/pdf]: https://github.com/stdlib-js/stats-base-dists-gumbel-pdf/tree/esm
 
-[@stdlib/stats/base/dists/gumbel/quantile]: https://github.com/stdlib-js/stats-base-dists-gumbel-quantile
+[@stdlib/stats/base/dists/gumbel/quantile]: https://github.com/stdlib-js/stats-base-dists-gumbel-quantile/tree/esm
 
 <!-- </toc-links> -->
 
