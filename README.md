@@ -18,26 +18,47 @@ limitations under the License.
 
 -->
 
+
+<details>
+  <summary>
+    About stdlib...
+  </summary>
+  <p>We believe in a future in which the web is a preferred environment for numerical computation. To help realize this future, we've built stdlib. stdlib is a standard library, with an emphasis on numerical and scientific computation, written in JavaScript (and C) for execution in browsers and in Node.js.</p>
+  <p>The library is fully decomposable, being architected in such a way that you can swap out and mix and match APIs and functionality to cater to your exact preferences and use cases.</p>
+  <p>When you use stdlib, you can be absolutely certain that you are using the most thorough, rigorous, well-written, studied, documented, tested, measured, and high-quality code out there.</p>
+  <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
+</details>
+
 # Gumbel
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Gumbel distribution.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-gumbel
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import gumbel from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { Gumbel, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel@deno/mod.js';
+var gumbel = require( '@stdlib/stats-base-dists-gumbel' );
 ```
 
 #### gumbel
@@ -98,7 +119,7 @@ The namespace contains a constructor function for creating a [Gumbel][gumbel-dis
 <!-- </toc> -->
 
 ```javascript
-var Gumbel = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel' ).Gumbel;
+var Gumbel = require( '@stdlib/stats-base-dists-gumbel' ).Gumbel;
 
 var dist = new Gumbel( 2.0, 4.0 );
 
@@ -119,8 +140,8 @@ var y = dist.pdf( 2.0 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import gumbel from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel@deno/mod.js';
+var objectKeys = require( '@stdlib/utils-keys' );
+var gumbel = require( '@stdlib/stats-base-dists-gumbel' );
 
 console.log( objectKeys( gumbel ) );
 ```
@@ -146,7 +167,7 @@ console.log( objectKeys( gumbel ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -176,8 +197,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-base-dists-gumbel.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-base-dists-gumbel
 
-[test-image]: https://github.com/stdlib-js/stats-base-dists-gumbel/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/stats-base-dists-gumbel/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/stats-base-dists-gumbel/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/stats-base-dists-gumbel/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-base-dists-gumbel/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-base-dists-gumbel?branch=main
@@ -190,7 +211,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -210,35 +231,35 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/gumbel/ctor]: https://github.com/stdlib-js/stats-base-dists-gumbel-ctor/tree/deno
+[@stdlib/stats/base/dists/gumbel/ctor]: https://github.com/stdlib-js/stats-base-dists-gumbel-ctor
 
-[@stdlib/stats/base/dists/gumbel/entropy]: https://github.com/stdlib-js/stats-base-dists-gumbel-entropy/tree/deno
+[@stdlib/stats/base/dists/gumbel/entropy]: https://github.com/stdlib-js/stats-base-dists-gumbel-entropy
 
-[@stdlib/stats/base/dists/gumbel/kurtosis]: https://github.com/stdlib-js/stats-base-dists-gumbel-kurtosis/tree/deno
+[@stdlib/stats/base/dists/gumbel/kurtosis]: https://github.com/stdlib-js/stats-base-dists-gumbel-kurtosis
 
-[@stdlib/stats/base/dists/gumbel/mean]: https://github.com/stdlib-js/stats-base-dists-gumbel-mean/tree/deno
+[@stdlib/stats/base/dists/gumbel/mean]: https://github.com/stdlib-js/stats-base-dists-gumbel-mean
 
-[@stdlib/stats/base/dists/gumbel/median]: https://github.com/stdlib-js/stats-base-dists-gumbel-median/tree/deno
+[@stdlib/stats/base/dists/gumbel/median]: https://github.com/stdlib-js/stats-base-dists-gumbel-median
 
-[@stdlib/stats/base/dists/gumbel/mode]: https://github.com/stdlib-js/stats-base-dists-gumbel-mode/tree/deno
+[@stdlib/stats/base/dists/gumbel/mode]: https://github.com/stdlib-js/stats-base-dists-gumbel-mode
 
-[@stdlib/stats/base/dists/gumbel/skewness]: https://github.com/stdlib-js/stats-base-dists-gumbel-skewness/tree/deno
+[@stdlib/stats/base/dists/gumbel/skewness]: https://github.com/stdlib-js/stats-base-dists-gumbel-skewness
 
-[@stdlib/stats/base/dists/gumbel/stdev]: https://github.com/stdlib-js/stats-base-dists-gumbel-stdev/tree/deno
+[@stdlib/stats/base/dists/gumbel/stdev]: https://github.com/stdlib-js/stats-base-dists-gumbel-stdev
 
-[@stdlib/stats/base/dists/gumbel/variance]: https://github.com/stdlib-js/stats-base-dists-gumbel-variance/tree/deno
+[@stdlib/stats/base/dists/gumbel/variance]: https://github.com/stdlib-js/stats-base-dists-gumbel-variance
 
-[@stdlib/stats/base/dists/gumbel/cdf]: https://github.com/stdlib-js/stats-base-dists-gumbel-cdf/tree/deno
+[@stdlib/stats/base/dists/gumbel/cdf]: https://github.com/stdlib-js/stats-base-dists-gumbel-cdf
 
-[@stdlib/stats/base/dists/gumbel/logcdf]: https://github.com/stdlib-js/stats-base-dists-gumbel-logcdf/tree/deno
+[@stdlib/stats/base/dists/gumbel/logcdf]: https://github.com/stdlib-js/stats-base-dists-gumbel-logcdf
 
-[@stdlib/stats/base/dists/gumbel/logpdf]: https://github.com/stdlib-js/stats-base-dists-gumbel-logpdf/tree/deno
+[@stdlib/stats/base/dists/gumbel/logpdf]: https://github.com/stdlib-js/stats-base-dists-gumbel-logpdf
 
-[@stdlib/stats/base/dists/gumbel/mgf]: https://github.com/stdlib-js/stats-base-dists-gumbel-mgf/tree/deno
+[@stdlib/stats/base/dists/gumbel/mgf]: https://github.com/stdlib-js/stats-base-dists-gumbel-mgf
 
-[@stdlib/stats/base/dists/gumbel/pdf]: https://github.com/stdlib-js/stats-base-dists-gumbel-pdf/tree/deno
+[@stdlib/stats/base/dists/gumbel/pdf]: https://github.com/stdlib-js/stats-base-dists-gumbel-pdf
 
-[@stdlib/stats/base/dists/gumbel/quantile]: https://github.com/stdlib-js/stats-base-dists-gumbel-quantile/tree/deno
+[@stdlib/stats/base/dists/gumbel/quantile]: https://github.com/stdlib-js/stats-base-dists-gumbel-quantile
 
 <!-- </toc-links> -->
 
