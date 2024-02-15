@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import gumbel from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-gumbel/tags). For example,
+
+```javascript
 import gumbel from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Gumbel, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel@v0.2.0-esm/index.mjs';
+import { Gumbel, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel@esm/index.mjs';
 ```
 
 #### gumbel
@@ -136,7 +141,7 @@ var y = dist.pdf( 2.0 );
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import gumbel from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel@v0.2.0-esm/index.mjs';
+import gumbel from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel@esm/index.mjs';
 
 console.log( objectKeys( gumbel ) );
 
