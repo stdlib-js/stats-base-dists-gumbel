@@ -33,6 +33,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`7fb04a9`](https://github.com/stdlib-js/stdlib/commit/7fb04a92ebae797788f7047feac1caaf6a7a1f4f) - **style:** add missing spaces around parentheses _(by Philipp Burckhardt)_
 -   [`d7bf560`](https://github.com/stdlib-js/stdlib/commit/d7bf560813d0f6cd44418dad0e8e84dd3f0a1596) - **docs:** improve examples of `stats/base/dists/gumbel` _(by olenkabilonizhka, Philipp Burckhardt)_
 -   [`f387603`](https://github.com/stdlib-js/stdlib/commit/f387603e739f88a38af3263ce6ff675ad903ee8c) - **docs:** consistently use declarative instead of imperative sentences outside of intros _(by Philipp Burckhardt)_
 
