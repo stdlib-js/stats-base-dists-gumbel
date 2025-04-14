@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-10)
+## Unreleased (2025-04-14)
 
 <section class="packages">
 
@@ -30,9 +30,9 @@
 
 ##### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#3644](https://github.com/stdlib-js/stdlib/issues/3644)
+[#3644](https://github.com/stdlib-js/stdlib/issues/3644), [#5426](https://github.com/stdlib-js/stdlib/issues/5426)
 
 </section>
 
@@ -64,9 +64,9 @@ This release closes the following issue:
 
 ##### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#3657](https://github.com/stdlib-js/stdlib/issues/3657)
+[#3657](https://github.com/stdlib-js/stdlib/issues/3657), [#5424](https://github.com/stdlib-js/stdlib/issues/5424)
 
 </section>
 
@@ -268,9 +268,43 @@ This release closes the following issue:
 
 ##### Closed Issues
 
+A total of 2 issues were closed in this release:
+
+[#3652](https://github.com/stdlib-js/stdlib/issues/3652), [#5425](https://github.com/stdlib-js/stdlib/issues/5425)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-gumbel-skewness-unreleased">
+
+#### [@stdlib/stats/base/dists/gumbel/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/skewness)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`63ff101`](https://github.com/stdlib-js/stdlib/commit/63ff1011a64fd1c968babb7ae368f25dcbc3f5cf) - add C implementation for `stats/base/dists/gumbel/skewness` [(#4650)](https://github.com/stdlib-js/stdlib/pull/4650)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
 This release closes the following issue:
 
-[#3652](https://github.com/stdlib-js/stdlib/issues/3652)
+[#3613](https://github.com/stdlib-js/stdlib/issues/3613)
 
 </section>
 
@@ -358,9 +392,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 12 issues were closed in this release:
+A total of 16 issues were closed in this release:
 
-[#3644](https://github.com/stdlib-js/stdlib/issues/3644), [#3645](https://github.com/stdlib-js/stdlib/issues/3645), [#3646](https://github.com/stdlib-js/stdlib/issues/3646), [#3648](https://github.com/stdlib-js/stdlib/issues/3648), [#3650](https://github.com/stdlib-js/stdlib/issues/3650), [#3651](https://github.com/stdlib-js/stdlib/issues/3651), [#3652](https://github.com/stdlib-js/stdlib/issues/3652), [#3655](https://github.com/stdlib-js/stdlib/issues/3655), [#3656](https://github.com/stdlib-js/stdlib/issues/3656), [#3657](https://github.com/stdlib-js/stdlib/issues/3657), [#5427](https://github.com/stdlib-js/stdlib/issues/5427), [#5429](https://github.com/stdlib-js/stdlib/issues/5429)
+[#3613](https://github.com/stdlib-js/stdlib/issues/3613), [#3644](https://github.com/stdlib-js/stdlib/issues/3644), [#3645](https://github.com/stdlib-js/stdlib/issues/3645), [#3646](https://github.com/stdlib-js/stdlib/issues/3646), [#3648](https://github.com/stdlib-js/stdlib/issues/3648), [#3650](https://github.com/stdlib-js/stdlib/issues/3650), [#3651](https://github.com/stdlib-js/stdlib/issues/3651), [#3652](https://github.com/stdlib-js/stdlib/issues/3652), [#3655](https://github.com/stdlib-js/stdlib/issues/3655), [#3656](https://github.com/stdlib-js/stdlib/issues/3656), [#3657](https://github.com/stdlib-js/stdlib/issues/3657), [#5424](https://github.com/stdlib-js/stdlib/issues/5424), [#5425](https://github.com/stdlib-js/stdlib/issues/5425), [#5426](https://github.com/stdlib-js/stdlib/issues/5426), [#5427](https://github.com/stdlib-js/stdlib/issues/5427), [#5429](https://github.com/stdlib-js/stdlib/issues/5429)
 
 </section>
 
@@ -370,12 +404,14 @@ A total of 12 issues were closed in this release:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 9 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
+-   Athan Reines
 -   Harsh
 -   Karan Anand
 -   Philipp Burckhardt
+-   Shabareesh Shetty
 -   Vinit Pandit
 -   Vivek Maurya
 -   olenkabilonizhka
@@ -390,6 +426,12 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`27a2c76`](https://github.com/stdlib-js/stdlib/commit/27a2c76c64ad99549c1ff4b7443e331415ccb16f) - **chore:** clean-up _(by Athan Reines)_
+-   [`63ff101`](https://github.com/stdlib-js/stdlib/commit/63ff1011a64fd1c968babb7ae368f25dcbc3f5cf) - **feat:** add C implementation for `stats/base/dists/gumbel/skewness` [(#4650)](https://github.com/stdlib-js/stdlib/pull/4650) _(by Shabareesh Shetty, Philipp Burckhardt, stdlib-bot)_
+-   [`09aac30`](https://github.com/stdlib-js/stdlib/commit/09aac30680a3c2c81b0741cb025175a8b1e54ec4) - **chore:** address commit comment [(#5450)](https://github.com/stdlib-js/stdlib/pull/5450) _(by Harsh)_
+-   [`78dc663`](https://github.com/stdlib-js/stdlib/commit/78dc663f35d9de92c555c21ae65a4e9883270431) - **chore:** address commit comment [(#5451)](https://github.com/stdlib-js/stdlib/pull/5451) _(by Harsh)_
+-   [`cfa7b23`](https://github.com/stdlib-js/stdlib/commit/cfa7b23590ff73b540aab2601eb2a0b7539d1f56) - **chore:** address commit comment [(#5449)](https://github.com/stdlib-js/stdlib/pull/5449) _(by Harsh)_
+-   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`3e9c53b`](https://github.com/stdlib-js/stdlib/commit/3e9c53b529d3523c5360ebd5788bddfea42b0a5d) - **chore:** address commit comments [(#5460)](https://github.com/stdlib-js/stdlib/pull/5460) _(by Harsh)_
 -   [`c320d8b`](https://github.com/stdlib-js/stdlib/commit/c320d8ba8d50de0b54e3231650076873be39c492) - **chore:** address commit comments [(#5491)](https://github.com/stdlib-js/stdlib/pull/5491) _(by Harsh)_
 -   [`c5feaab`](https://github.com/stdlib-js/stdlib/commit/c5feaab7de3240a8c2b248f9977448af8adfe43b) - **feat:** add C implementation of `stats/base/dists/gumbel/entropy` [(#4167)](https://github.com/stdlib-js/stdlib/pull/4167) _(by Vinit Pandit, stdlib-bot, Philipp Burckhardt)_
