@@ -4,362 +4,23 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-14)
-
-<section class="packages">
-
-### Packages
-
-<section class="package" id="stats-base-dists-gumbel-cdf-unreleased">
-
-#### [@stdlib/stats/base/dists/gumbel/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/cdf)
-
-<details>
+## Unreleased (2025-05-19)
 
 <section class="features">
 
-##### Features
+### Features
 
--   [`8d999ed`](https://github.com/stdlib-js/stdlib/commit/8d999ed6db40ce945ec99fc21e42d22ae872e10b) - add C implementation of `stats/base/dists/gumbel/cdf` [(#4083)](https://github.com/stdlib-js/stdlib/pull/4083)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-A total of 2 issues were closed in this release:
-
-[#3644](https://github.com/stdlib-js/stdlib/issues/3644), [#5426](https://github.com/stdlib-js/stdlib/issues/5426)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-entropy-unreleased">
-
-#### [@stdlib/stats/base/dists/gumbel/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/entropy)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`c5feaab`](https://github.com/stdlib-js/stdlib/commit/c5feaab7de3240a8c2b248f9977448af8adfe43b) - add C implementation of `stats/base/dists/gumbel/entropy` [(#4167)](https://github.com/stdlib-js/stdlib/pull/4167)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-A total of 2 issues were closed in this release:
-
-[#3657](https://github.com/stdlib-js/stdlib/issues/3657), [#5424](https://github.com/stdlib-js/stdlib/issues/5424)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-kurtosis-unreleased">
-
-#### [@stdlib/stats/base/dists/gumbel/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/kurtosis)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`02c1a61`](https://github.com/stdlib-js/stdlib/commit/02c1a6107cd10392a3893ae76b6d8e81414e3067) - add C implementation for `stats/base/dists/gumbel/kurtosis`   [(#4155)](https://github.com/stdlib-js/stdlib/pull/4155)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3645](https://github.com/stdlib-js/stdlib/issues/3645)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-logcdf-unreleased">
-
-#### [@stdlib/stats/base/dists/gumbel/logcdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/logcdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`124f3b1`](https://github.com/stdlib-js/stdlib/commit/124f3b1827e713c9fe97119ae4285ee6940b6473) - add C implementation of `stats/base/dists/gumbel/logcdf` [(#4081)](https://github.com/stdlib-js/stdlib/pull/4081)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-A total of 2 issues were closed in this release:
-
-[#3646](https://github.com/stdlib-js/stdlib/issues/3646), [#5427](https://github.com/stdlib-js/stdlib/issues/5427)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-mean-unreleased">
-
-#### [@stdlib/stats/base/dists/gumbel/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/mean)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`9f2c153`](https://github.com/stdlib-js/stdlib/commit/9f2c153fdf42e0d123212d4dfaec574db34680a4) - add C implementation of `stats/base/dists/gumbel/mean` [(#4086)](https://github.com/stdlib-js/stdlib/pull/4086)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3648](https://github.com/stdlib-js/stdlib/issues/3648)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-mgf-unreleased">
-
-#### [@stdlib/stats/base/dists/gumbel/mgf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/mgf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`3eff83f`](https://github.com/stdlib-js/stdlib/commit/3eff83f89e26a589f041538aa34fe47446cbdde8) - add C implementation of `stats/base/dists/gumbel/mgf`  [(#4168)](https://github.com/stdlib-js/stdlib/pull/4168)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-A total of 2 issues were closed in this release:
-
-[#3650](https://github.com/stdlib-js/stdlib/issues/3650), [#5429](https://github.com/stdlib-js/stdlib/issues/5429)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-mode-unreleased">
-
-#### [@stdlib/stats/base/dists/gumbel/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/mode)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`afec7c7`](https://github.com/stdlib-js/stdlib/commit/afec7c739bd80f59afce304f637346a7d60bdb59) - add C implementation for `stats/base/dists/gumbel/mode`   [(#4151)](https://github.com/stdlib-js/stdlib/pull/4151)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3651](https://github.com/stdlib-js/stdlib/issues/3651)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-pdf-unreleased">
-
-#### [@stdlib/stats/base/dists/gumbel/pdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/pdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`09562f8`](https://github.com/stdlib-js/stdlib/commit/09562f8034d60426d4e92c8bbb1160fc528099f8) - add C implementation of the `stats/base/dists/gumbel/pdf` [(#4082)](https://github.com/stdlib-js/stdlib/pull/4082)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-A total of 2 issues were closed in this release:
-
-[#3652](https://github.com/stdlib-js/stdlib/issues/3652), [#5425](https://github.com/stdlib-js/stdlib/issues/5425)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-skewness-unreleased">
-
-#### [@stdlib/stats/base/dists/gumbel/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/skewness)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`a92a6e3`](https://github.com/stdlib-js/stdlib/commit/a92a6e3876e93b826ab2a6c6cd550e952c24d788) - add C implementation of `stats/dists/gumbel/logpdf` [(#4085)](https://github.com/stdlib-js/stdlib/pull/4085)
 -   [`63ff101`](https://github.com/stdlib-js/stdlib/commit/63ff1011a64fd1c968babb7ae368f25dcbc3f5cf) - add C implementation for `stats/base/dists/gumbel/skewness` [(#4650)](https://github.com/stdlib-js/stdlib/pull/4650)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3613](https://github.com/stdlib-js/stdlib/issues/3613)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-stdev-unreleased">
-
-#### [@stdlib/stats/base/dists/gumbel/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/stdev)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`c5feaab`](https://github.com/stdlib-js/stdlib/commit/c5feaab7de3240a8c2b248f9977448af8adfe43b) - add C implementation of `stats/base/dists/gumbel/entropy` [(#4167)](https://github.com/stdlib-js/stdlib/pull/4167)
+-   [`09562f8`](https://github.com/stdlib-js/stdlib/commit/09562f8034d60426d4e92c8bbb1160fc528099f8) - add C implementation of the `stats/base/dists/gumbel/pdf` [(#4082)](https://github.com/stdlib-js/stdlib/pull/4082)
+-   [`8d999ed`](https://github.com/stdlib-js/stdlib/commit/8d999ed6db40ce945ec99fc21e42d22ae872e10b) - add C implementation of `stats/base/dists/gumbel/cdf` [(#4083)](https://github.com/stdlib-js/stdlib/pull/4083)
+-   [`124f3b1`](https://github.com/stdlib-js/stdlib/commit/124f3b1827e713c9fe97119ae4285ee6940b6473) - add C implementation of `stats/base/dists/gumbel/logcdf` [(#4081)](https://github.com/stdlib-js/stdlib/pull/4081)
+-   [`9f2c153`](https://github.com/stdlib-js/stdlib/commit/9f2c153fdf42e0d123212d4dfaec574db34680a4) - add C implementation of `stats/base/dists/gumbel/mean` [(#4086)](https://github.com/stdlib-js/stdlib/pull/4086)
+-   [`3eff83f`](https://github.com/stdlib-js/stdlib/commit/3eff83f89e26a589f041538aa34fe47446cbdde8) - add C implementation of `stats/base/dists/gumbel/mgf`  [(#4168)](https://github.com/stdlib-js/stdlib/pull/4168)
+-   [`02c1a61`](https://github.com/stdlib-js/stdlib/commit/02c1a6107cd10392a3893ae76b6d8e81414e3067) - add C implementation for `stats/base/dists/gumbel/kurtosis`   [(#4155)](https://github.com/stdlib-js/stdlib/pull/4155)
+-   [`afec7c7`](https://github.com/stdlib-js/stdlib/commit/afec7c739bd80f59afce304f637346a7d60bdb59) - add C implementation for `stats/base/dists/gumbel/mode`   [(#4151)](https://github.com/stdlib-js/stdlib/pull/4151)
 -   [`6bee26c`](https://github.com/stdlib-js/stdlib/commit/6bee26c8deff47aff0baaec81651ce6682716196) - add C implementation for `stats/base/dists/gumbel/stdev` [(#4153)](https://github.com/stdlib-js/stdlib/pull/4153)
-
-</section>
-
-<!-- /.features -->
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3655](https://github.com/stdlib-js/stdlib/issues/3655)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-variance-unreleased">
-
-#### [@stdlib/stats/base/dists/gumbel/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/variance)
-
-<details>
-
-<section class="features">
-
-##### Features
-
 -   [`bb39734`](https://github.com/stdlib-js/stdlib/commit/bb39734352cdccbee4633abe450e1b2f1cda75ee) - add C implementation for `stats/base/dists/gumbel/variance` [(#3967)](https://github.com/stdlib-js/stdlib/pull/3967)
 
 </section>
@@ -368,57 +29,15 @@ This release closes the following issue:
 
 <section class="issues">
 
-##### Closed Issues
-
-This release closes the following issue:
-
-[#3656](https://github.com/stdlib-js/stdlib/issues/3656)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
-
-<section class="issues">
-
 ### Closed Issues
 
-A total of 16 issues were closed in this release:
+A total of 17 issues were closed in this release:
 
-[#3613](https://github.com/stdlib-js/stdlib/issues/3613), [#3644](https://github.com/stdlib-js/stdlib/issues/3644), [#3645](https://github.com/stdlib-js/stdlib/issues/3645), [#3646](https://github.com/stdlib-js/stdlib/issues/3646), [#3648](https://github.com/stdlib-js/stdlib/issues/3648), [#3650](https://github.com/stdlib-js/stdlib/issues/3650), [#3651](https://github.com/stdlib-js/stdlib/issues/3651), [#3652](https://github.com/stdlib-js/stdlib/issues/3652), [#3655](https://github.com/stdlib-js/stdlib/issues/3655), [#3656](https://github.com/stdlib-js/stdlib/issues/3656), [#3657](https://github.com/stdlib-js/stdlib/issues/3657), [#5424](https://github.com/stdlib-js/stdlib/issues/5424), [#5425](https://github.com/stdlib-js/stdlib/issues/5425), [#5426](https://github.com/stdlib-js/stdlib/issues/5426), [#5427](https://github.com/stdlib-js/stdlib/issues/5427), [#5429](https://github.com/stdlib-js/stdlib/issues/5429)
+[#3644](https://github.com/stdlib-js/stdlib/issues/3644), [#3645](https://github.com/stdlib-js/stdlib/issues/3645), [#3646](https://github.com/stdlib-js/stdlib/issues/3646), [#3647](https://github.com/stdlib-js/stdlib/issues/3647), [#3648](https://github.com/stdlib-js/stdlib/issues/3648), [#3650](https://github.com/stdlib-js/stdlib/issues/3650), [#3651](https://github.com/stdlib-js/stdlib/issues/3651), [#3652](https://github.com/stdlib-js/stdlib/issues/3652), [#3654](https://github.com/stdlib-js/stdlib/issues/3654), [#3655](https://github.com/stdlib-js/stdlib/issues/3655), [#3656](https://github.com/stdlib-js/stdlib/issues/3656), [#3657](https://github.com/stdlib-js/stdlib/issues/3657), [#5424](https://github.com/stdlib-js/stdlib/issues/5424), [#5425](https://github.com/stdlib-js/stdlib/issues/5425), [#5426](https://github.com/stdlib-js/stdlib/issues/5426), [#5427](https://github.com/stdlib-js/stdlib/issues/5427), [#5429](https://github.com/stdlib-js/stdlib/issues/5429)
 
 </section>
 
 <!-- /.issues -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 9 people contributed to this release. Thank you to the following contributors:
-
--   Aayush Khanna
--   Athan Reines
--   Harsh
--   Karan Anand
--   Philipp Burckhardt
--   Shabareesh Shetty
--   Vinit Pandit
--   Vivek Maurya
--   olenkabilonizhka
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -426,6 +45,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`a92a6e3`](https://github.com/stdlib-js/stdlib/commit/a92a6e3876e93b826ab2a6c6cd550e952c24d788) - **feat:** add C implementation of `stats/dists/gumbel/logpdf` [(#4085)](https://github.com/stdlib-js/stdlib/pull/4085) _(by Vinit Pandit, Philipp Burckhardt, stdlib-bot)_
 -   [`27a2c76`](https://github.com/stdlib-js/stdlib/commit/27a2c76c64ad99549c1ff4b7443e331415ccb16f) - **chore:** clean-up _(by Athan Reines)_
 -   [`63ff101`](https://github.com/stdlib-js/stdlib/commit/63ff1011a64fd1c968babb7ae368f25dcbc3f5cf) - **feat:** add C implementation for `stats/base/dists/gumbel/skewness` [(#4650)](https://github.com/stdlib-js/stdlib/pull/4650) _(by Shabareesh Shetty, Philipp Burckhardt, stdlib-bot)_
 -   [`09aac30`](https://github.com/stdlib-js/stdlib/commit/09aac30680a3c2c81b0741cb025175a8b1e54ec4) - **chore:** address commit comment [(#5450)](https://github.com/stdlib-js/stdlib/pull/5450) _(by Harsh)_
@@ -465,6 +85,26 @@ A total of 9 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 9 people contributed to this release. Thank you to the following contributors:
+
+-   Aayush Khanna
+-   Athan Reines
+-   Harsh
+-   Karan Anand
+-   Philipp Burckhardt
+-   Shabareesh Shetty
+-   Vinit Pandit
+-   Vivek Maurya
+-   olenkabilonizhka
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -472,26 +112,6 @@ A total of 9 people contributed to this release. Thank you to the following cont
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)
-
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -507,6 +127,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -526,26 +158,6 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-14)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -561,6 +173,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -569,557 +193,15 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ## 0.1.0 (2023-09-24)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="stats-base-dists-gumbel-v0.1.0">
-
-#### [@stdlib/stats/base/dists/gumbel](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
 
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-cdf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/gumbel/cdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/cdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-ctor-v0.1.0">
-
-#### [@stdlib/stats/base/dists/gumbel/ctor](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/ctor)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-entropy-v0.1.0">
-
-#### [@stdlib/stats/base/dists/gumbel/entropy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/entropy)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-kurtosis-v0.1.0">
-
-#### [@stdlib/stats/base/dists/gumbel/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/kurtosis)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-logcdf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/gumbel/logcdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/logcdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-logpdf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/gumbel/logpdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/logpdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-mean-v0.1.0">
-
-#### [@stdlib/stats/base/dists/gumbel/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/mean)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-median-v0.1.0">
-
-#### [@stdlib/stats/base/dists/gumbel/median](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/median)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-mgf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/gumbel/mgf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/mgf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-mode-v0.1.0">
-
-#### [@stdlib/stats/base/dists/gumbel/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/mode)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-pdf-v0.1.0">
-
-#### [@stdlib/stats/base/dists/gumbel/pdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/pdf)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-quantile-v0.1.0">
-
-#### [@stdlib/stats/base/dists/gumbel/quantile](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/quantile)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-skewness-v0.1.0">
-
-#### [@stdlib/stats/base/dists/gumbel/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/skewness)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-stdev-v0.1.0">
-
-#### [@stdlib/stats/base/dists/gumbel/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/stdev)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="stats-base-dists-gumbel-variance-v0.1.0">
-
-#### [@stdlib/stats/base/dists/gumbel/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/gumbel/variance)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`81ca3ab`](https://github.com/stdlib-js/stdlib/commit/81ca3ab33585150e98a402b3e6d57beb1ec36864): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -1132,18 +214,6 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -1161,6 +231,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
