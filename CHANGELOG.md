@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-19)
+## Unreleased (2025-06-09)
 
 <section class="features">
 
@@ -45,6 +45,8 @@ A total of 17 issues were closed in this release:
 
 <details>
 
+-   [`3565318`](https://github.com/stdlib-js/stdlib/commit/3565318e3639b3e44890ed15ccd73560d3cac14c) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`33ba5a0`](https://github.com/stdlib-js/stdlib/commit/33ba5a0d301d47b4d950ca6ed548dcc4a5bcc1a1) - **test:** add missing skips for native add-on tests _(by Philipp Burckhardt)_
 -   [`a92a6e3`](https://github.com/stdlib-js/stdlib/commit/a92a6e3876e93b826ab2a6c6cd550e952c24d788) - **feat:** add C implementation of `stats/dists/gumbel/logpdf` [(#4085)](https://github.com/stdlib-js/stdlib/pull/4085) _(by Vinit Pandit, Philipp Burckhardt, stdlib-bot)_
 -   [`27a2c76`](https://github.com/stdlib-js/stdlib/commit/27a2c76c64ad99549c1ff4b7443e331415ccb16f) - **chore:** clean-up _(by Athan Reines)_
 -   [`63ff101`](https://github.com/stdlib-js/stdlib/commit/63ff1011a64fd1c968babb7ae368f25dcbc3f5cf) - **feat:** add C implementation for `stats/base/dists/gumbel/skewness` [(#4650)](https://github.com/stdlib-js/stdlib/pull/4650) _(by Shabareesh Shetty, Philipp Burckhardt, stdlib-bot)_
@@ -89,10 +91,11 @@ A total of 17 issues were closed in this release:
 
 ### Contributors
 
-A total of 9 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
+-   Gururaj Gurram
 -   Harsh
 -   Karan Anand
 -   Philipp Burckhardt
