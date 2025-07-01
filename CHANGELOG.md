@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-09)
+## Unreleased (2025-07-01)
 
 <section class="features">
 
 ### Features
 
+-   [`dd4ec1f`](https://github.com/stdlib-js/stdlib/commit/dd4ec1f43658127b038dde75c6f378d30f87114f) - add C implementation for `stats/base/dists/gumbel/quantile` [(#4558)](https://github.com/stdlib-js/stdlib/pull/4558)
 -   [`a92a6e3`](https://github.com/stdlib-js/stdlib/commit/a92a6e3876e93b826ab2a6c6cd550e952c24d788) - add C implementation of `stats/dists/gumbel/logpdf` [(#4085)](https://github.com/stdlib-js/stdlib/pull/4085)
 -   [`63ff101`](https://github.com/stdlib-js/stdlib/commit/63ff1011a64fd1c968babb7ae368f25dcbc3f5cf) - add C implementation for `stats/base/dists/gumbel/skewness` [(#4650)](https://github.com/stdlib-js/stdlib/pull/4650)
 -   [`c5feaab`](https://github.com/stdlib-js/stdlib/commit/c5feaab7de3240a8c2b248f9977448af8adfe43b) - add C implementation of `stats/base/dists/gumbel/entropy` [(#4167)](https://github.com/stdlib-js/stdlib/pull/4167)
@@ -27,13 +28,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`32e4068`](https://github.com/stdlib-js/stdlib/commit/32e40687fc5b2e5ed1717b63ca2eda830ddcca44) - remove unused `exp` and `eps` dependencies from `gumbel/mean` manifest
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="issues">
 
 ### Closed Issues
 
-A total of 17 issues were closed in this release:
+A total of 18 issues were closed in this release:
 
-[#3644](https://github.com/stdlib-js/stdlib/issues/3644), [#3645](https://github.com/stdlib-js/stdlib/issues/3645), [#3646](https://github.com/stdlib-js/stdlib/issues/3646), [#3647](https://github.com/stdlib-js/stdlib/issues/3647), [#3648](https://github.com/stdlib-js/stdlib/issues/3648), [#3650](https://github.com/stdlib-js/stdlib/issues/3650), [#3651](https://github.com/stdlib-js/stdlib/issues/3651), [#3652](https://github.com/stdlib-js/stdlib/issues/3652), [#3654](https://github.com/stdlib-js/stdlib/issues/3654), [#3655](https://github.com/stdlib-js/stdlib/issues/3655), [#3656](https://github.com/stdlib-js/stdlib/issues/3656), [#3657](https://github.com/stdlib-js/stdlib/issues/3657), [#5424](https://github.com/stdlib-js/stdlib/issues/5424), [#5425](https://github.com/stdlib-js/stdlib/issues/5425), [#5426](https://github.com/stdlib-js/stdlib/issues/5426), [#5427](https://github.com/stdlib-js/stdlib/issues/5427), [#5429](https://github.com/stdlib-js/stdlib/issues/5429)
+[#3644](https://github.com/stdlib-js/stdlib/issues/3644), [#3645](https://github.com/stdlib-js/stdlib/issues/3645), [#3646](https://github.com/stdlib-js/stdlib/issues/3646), [#3647](https://github.com/stdlib-js/stdlib/issues/3647), [#3648](https://github.com/stdlib-js/stdlib/issues/3648), [#3650](https://github.com/stdlib-js/stdlib/issues/3650), [#3651](https://github.com/stdlib-js/stdlib/issues/3651), [#3652](https://github.com/stdlib-js/stdlib/issues/3652), [#3653](https://github.com/stdlib-js/stdlib/issues/3653), [#3654](https://github.com/stdlib-js/stdlib/issues/3654), [#3655](https://github.com/stdlib-js/stdlib/issues/3655), [#3656](https://github.com/stdlib-js/stdlib/issues/3656), [#3657](https://github.com/stdlib-js/stdlib/issues/3657), [#5424](https://github.com/stdlib-js/stdlib/issues/5424), [#5425](https://github.com/stdlib-js/stdlib/issues/5425), [#5426](https://github.com/stdlib-js/stdlib/issues/5426), [#5427](https://github.com/stdlib-js/stdlib/issues/5427), [#5429](https://github.com/stdlib-js/stdlib/issues/5429)
 
 </section>
 
@@ -45,6 +56,14 @@ A total of 17 issues were closed in this release:
 
 <details>
 
+-   [`e342a38`](https://github.com/stdlib-js/stdlib/commit/e342a388619ab71f5222105ec94c5029e42a4458) - **refactor:** update paths _(by Gururaj Gurram)_
+-   [`0a23889`](https://github.com/stdlib-js/stdlib/commit/0a23889dd55afcd8f1a85cd208a2397c931637bd) - **test:** increase tolerances for passing tests _(by Philipp Burckhardt)_
+-   [`c698e73`](https://github.com/stdlib-js/stdlib/commit/c698e73a6365ec5d828861bb26a6e3bb74fb1af8) - **chore:** add missing eps dependency to benchmark and examples configs _(by Philipp Burckhardt)_
+-   [`efc52c9`](https://github.com/stdlib-js/stdlib/commit/efc52c9c2a9ff6c72b33efc3e000cb554badc171) - **chore:** clean-up _(by Athan Reines)_
+-   [`ee919b6`](https://github.com/stdlib-js/stdlib/commit/ee919b670b693b8c8881161d955229d21408924a) - **docs:** update `stats/base/dists/gumbel` examples to use Greek symbols _(by Philipp Burckhardt)_
+-   [`dd4ec1f`](https://github.com/stdlib-js/stdlib/commit/dd4ec1f43658127b038dde75c6f378d30f87114f) - **feat:** add C implementation for `stats/base/dists/gumbel/quantile` [(#4558)](https://github.com/stdlib-js/stdlib/pull/4558) _(by Nishchay Rajput, Philipp Burckhardt, stdlib-bot)_
+-   [`32e4068`](https://github.com/stdlib-js/stdlib/commit/32e40687fc5b2e5ed1717b63ca2eda830ddcca44) - **fix:** remove unused `exp` and `eps` dependencies from `gumbel/mean` manifest _(by Philipp Burckhardt)_
+-   [`981457c`](https://github.com/stdlib-js/stdlib/commit/981457cd28f75549ae2ab8a67bcf78c38f8c64b1) - **docs:** update related packages sections [(#7396)](https://github.com/stdlib-js/stdlib/pull/7396) _(by stdlib-bot, Athan Reines)_
 -   [`3565318`](https://github.com/stdlib-js/stdlib/commit/3565318e3639b3e44890ed15ccd73560d3cac14c) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`33ba5a0`](https://github.com/stdlib-js/stdlib/commit/33ba5a0d301d47b4d950ca6ed548dcc4a5bcc1a1) - **test:** add missing skips for native add-on tests _(by Philipp Burckhardt)_
 -   [`a92a6e3`](https://github.com/stdlib-js/stdlib/commit/a92a6e3876e93b826ab2a6c6cd550e952c24d788) - **feat:** add C implementation of `stats/dists/gumbel/logpdf` [(#4085)](https://github.com/stdlib-js/stdlib/pull/4085) _(by Vinit Pandit, Philipp Burckhardt, stdlib-bot)_
@@ -91,13 +110,14 @@ A total of 17 issues were closed in this release:
 
 ### Contributors
 
-A total of 10 people contributed to this release. Thank you to the following contributors:
+A total of 11 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
 -   Gururaj Gurram
 -   Harsh
 -   Karan Anand
+-   Nishchay Rajput
 -   Philipp Burckhardt
 -   Shabareesh Shetty
 -   Vinit Pandit
