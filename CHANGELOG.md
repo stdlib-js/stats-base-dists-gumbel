@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-14)
+## Unreleased (2025-12-02)
 
 <section class="features">
 
@@ -43,9 +43,9 @@
 
 ### Closed Issues
 
-A total of 19 issues were closed in this release:
+A total of 20 issues were closed in this release:
 
-[#3644](https://github.com/stdlib-js/stdlib/issues/3644), [#3645](https://github.com/stdlib-js/stdlib/issues/3645), [#3646](https://github.com/stdlib-js/stdlib/issues/3646), [#3647](https://github.com/stdlib-js/stdlib/issues/3647), [#3648](https://github.com/stdlib-js/stdlib/issues/3648), [#3649](https://github.com/stdlib-js/stdlib/issues/3649), [#3650](https://github.com/stdlib-js/stdlib/issues/3650), [#3651](https://github.com/stdlib-js/stdlib/issues/3651), [#3652](https://github.com/stdlib-js/stdlib/issues/3652), [#3653](https://github.com/stdlib-js/stdlib/issues/3653), [#3654](https://github.com/stdlib-js/stdlib/issues/3654), [#3655](https://github.com/stdlib-js/stdlib/issues/3655), [#3656](https://github.com/stdlib-js/stdlib/issues/3656), [#3657](https://github.com/stdlib-js/stdlib/issues/3657), [#5424](https://github.com/stdlib-js/stdlib/issues/5424), [#5425](https://github.com/stdlib-js/stdlib/issues/5425), [#5426](https://github.com/stdlib-js/stdlib/issues/5426), [#5427](https://github.com/stdlib-js/stdlib/issues/5427), [#5429](https://github.com/stdlib-js/stdlib/issues/5429)
+[#3644](https://github.com/stdlib-js/stdlib/issues/3644), [#3645](https://github.com/stdlib-js/stdlib/issues/3645), [#3646](https://github.com/stdlib-js/stdlib/issues/3646), [#3647](https://github.com/stdlib-js/stdlib/issues/3647), [#3648](https://github.com/stdlib-js/stdlib/issues/3648), [#3649](https://github.com/stdlib-js/stdlib/issues/3649), [#3650](https://github.com/stdlib-js/stdlib/issues/3650), [#3651](https://github.com/stdlib-js/stdlib/issues/3651), [#3652](https://github.com/stdlib-js/stdlib/issues/3652), [#3653](https://github.com/stdlib-js/stdlib/issues/3653), [#3654](https://github.com/stdlib-js/stdlib/issues/3654), [#3655](https://github.com/stdlib-js/stdlib/issues/3655), [#3656](https://github.com/stdlib-js/stdlib/issues/3656), [#3657](https://github.com/stdlib-js/stdlib/issues/3657), [#5424](https://github.com/stdlib-js/stdlib/issues/5424), [#5425](https://github.com/stdlib-js/stdlib/issues/5425), [#5426](https://github.com/stdlib-js/stdlib/issues/5426), [#5427](https://github.com/stdlib-js/stdlib/issues/5427), [#5429](https://github.com/stdlib-js/stdlib/issues/5429), [#7454](https://github.com/stdlib-js/stdlib/issues/7454)
 
 </section>
 
@@ -57,6 +57,18 @@ A total of 19 issues were closed in this release:
 
 <details>
 
+-   [`88fe77a`](https://github.com/stdlib-js/stdlib/commit/88fe77a2f059149b803f51d1a787894c7670798b) - **docs:** fix example code in namespace TypeScript declarations _(by Philipp Burckhardt)_
+-   [`97218a1`](https://github.com/stdlib-js/stdlib/commit/97218a12e1d5ec1479a5b39ac4d32318c372e922) - **docs:** fix TSDoc example code return annotations _(by Philipp Burckhardt)_
+-   [`0f21a37`](https://github.com/stdlib-js/stdlib/commit/0f21a37f076bf26a2c6c7f0acf08e6f2d1be9004) - **docs:** replace manual `for` loop in examples [(#8076)](https://github.com/stdlib-js/stdlib/pull/8076) _(by Harsh Yadav)_
+-   [`49f2313`](https://github.com/stdlib-js/stdlib/commit/49f23133cefb121f626a918838ef4bed4cc81da6) - **docs:** replace manual `for` loop in examples [(#8077)](https://github.com/stdlib-js/stdlib/pull/8077) _(by Harsh Yadav)_
+-   [`e2efe32`](https://github.com/stdlib-js/stdlib/commit/e2efe32914d0d9dae5da34e6f7e7bf7655430710) - **chore:** rename exported variable in d.ts file to match name used in example code _(by Philipp Burckhardt)_
+-   [`776887e`](https://github.com/stdlib-js/stdlib/commit/776887e9577ae2402fd69c97328cb864811bd120) - **docs:** update annotation values _(by Philipp Burckhardt)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
+-   [`a2fa5eb`](https://github.com/stdlib-js/stdlib/commit/a2fa5eb53203cfd1df88056fb5b4ebf9894c3e87) - **chore:** address commit comments [(#7845)](https://github.com/stdlib-js/stdlib/pull/7845) _(by Nakul Krishnakumar)_
 -   [`028d338`](https://github.com/stdlib-js/stdlib/commit/028d338ec185c667fb62c8dafe7011a60287ad3a) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`708320e`](https://github.com/stdlib-js/stdlib/commit/708320e43d505cd6f390bf6014d58cb5e092cbaf) - **docs:** update related packages sections [(#7647)](https://github.com/stdlib-js/stdlib/pull/7647) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`c2fe10f`](https://github.com/stdlib-js/stdlib/commit/c2fe10f542196829e3c713a9b22977c48da055d1) - **bench:** fix require path _(by Athan Reines)_
@@ -75,12 +87,12 @@ A total of 19 issues were closed in this release:
 -   [`a92a6e3`](https://github.com/stdlib-js/stdlib/commit/a92a6e3876e93b826ab2a6c6cd550e952c24d788) - **feat:** add C implementation of `stats/dists/gumbel/logpdf` [(#4085)](https://github.com/stdlib-js/stdlib/pull/4085) _(by Vinit Pandit, Philipp Burckhardt, stdlib-bot)_
 -   [`27a2c76`](https://github.com/stdlib-js/stdlib/commit/27a2c76c64ad99549c1ff4b7443e331415ccb16f) - **chore:** clean-up _(by Athan Reines)_
 -   [`63ff101`](https://github.com/stdlib-js/stdlib/commit/63ff1011a64fd1c968babb7ae368f25dcbc3f5cf) - **feat:** add C implementation for `stats/base/dists/gumbel/skewness` [(#4650)](https://github.com/stdlib-js/stdlib/pull/4650) _(by Shabareesh Shetty, Philipp Burckhardt, stdlib-bot)_
--   [`09aac30`](https://github.com/stdlib-js/stdlib/commit/09aac30680a3c2c81b0741cb025175a8b1e54ec4) - **chore:** address commit comment [(#5450)](https://github.com/stdlib-js/stdlib/pull/5450) _(by Harsh)_
--   [`78dc663`](https://github.com/stdlib-js/stdlib/commit/78dc663f35d9de92c555c21ae65a4e9883270431) - **chore:** address commit comment [(#5451)](https://github.com/stdlib-js/stdlib/pull/5451) _(by Harsh)_
--   [`cfa7b23`](https://github.com/stdlib-js/stdlib/commit/cfa7b23590ff73b540aab2601eb2a0b7539d1f56) - **chore:** address commit comment [(#5449)](https://github.com/stdlib-js/stdlib/pull/5449) _(by Harsh)_
+-   [`09aac30`](https://github.com/stdlib-js/stdlib/commit/09aac30680a3c2c81b0741cb025175a8b1e54ec4) - **chore:** address commit comment [(#5450)](https://github.com/stdlib-js/stdlib/pull/5450) _(by Harsh Yadav)_
+-   [`78dc663`](https://github.com/stdlib-js/stdlib/commit/78dc663f35d9de92c555c21ae65a4e9883270431) - **chore:** address commit comment [(#5451)](https://github.com/stdlib-js/stdlib/pull/5451) _(by Harsh Yadav)_
+-   [`cfa7b23`](https://github.com/stdlib-js/stdlib/commit/cfa7b23590ff73b540aab2601eb2a0b7539d1f56) - **chore:** address commit comment [(#5449)](https://github.com/stdlib-js/stdlib/pull/5449) _(by Harsh Yadav)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
--   [`3e9c53b`](https://github.com/stdlib-js/stdlib/commit/3e9c53b529d3523c5360ebd5788bddfea42b0a5d) - **chore:** address commit comments [(#5460)](https://github.com/stdlib-js/stdlib/pull/5460) _(by Harsh)_
--   [`c320d8b`](https://github.com/stdlib-js/stdlib/commit/c320d8ba8d50de0b54e3231650076873be39c492) - **chore:** address commit comments [(#5491)](https://github.com/stdlib-js/stdlib/pull/5491) _(by Harsh)_
+-   [`3e9c53b`](https://github.com/stdlib-js/stdlib/commit/3e9c53b529d3523c5360ebd5788bddfea42b0a5d) - **chore:** address commit comments [(#5460)](https://github.com/stdlib-js/stdlib/pull/5460) _(by Harsh Yadav)_
+-   [`c320d8b`](https://github.com/stdlib-js/stdlib/commit/c320d8ba8d50de0b54e3231650076873be39c492) - **chore:** address commit comments [(#5491)](https://github.com/stdlib-js/stdlib/pull/5491) _(by Harsh Yadav)_
 -   [`c5feaab`](https://github.com/stdlib-js/stdlib/commit/c5feaab7de3240a8c2b248f9977448af8adfe43b) - **feat:** add C implementation of `stats/base/dists/gumbel/entropy` [(#4167)](https://github.com/stdlib-js/stdlib/pull/4167) _(by Vinit Pandit, stdlib-bot, Philipp Burckhardt)_
 -   [`09562f8`](https://github.com/stdlib-js/stdlib/commit/09562f8034d60426d4e92c8bbb1160fc528099f8) - **feat:** add C implementation of the `stats/base/dists/gumbel/pdf` [(#4082)](https://github.com/stdlib-js/stdlib/pull/4082) _(by Vinit Pandit, Philipp Burckhardt, stdlib-bot)_
 -   [`8d999ed`](https://github.com/stdlib-js/stdlib/commit/8d999ed6db40ce945ec99fc21e42d22ae872e10b) - **feat:** add C implementation of `stats/base/dists/gumbel/cdf` [(#4083)](https://github.com/stdlib-js/stdlib/pull/4083) _(by Vinit Pandit, Philipp Burckhardt, stdlib-bot)_
@@ -116,13 +128,14 @@ A total of 19 issues were closed in this release:
 
 ### Contributors
 
-A total of 11 people contributed to this release. Thank you to the following contributors:
+A total of 12 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
 -   Gururaj Gurram
--   Harsh
+-   Harsh Yadav
 -   Karan Anand
+-   Nakul Krishnakumar
 -   Nishchay Rajput
 -   Philipp Burckhardt
 -   Shabareesh Shetty
