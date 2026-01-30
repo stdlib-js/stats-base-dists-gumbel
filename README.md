@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import gumbel from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-gumbel/tags). For example,
+
+```javascript
 import gumbel from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel@v0.3.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Gumbel, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel@v0.3.0-deno/mod.js';
+import { Gumbel, cdf, entropy, kurtosis, logcdf, logpdf, mean, median, mgf, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel@deno/mod.js';
 ```
 
 #### gumbel
@@ -136,7 +141,7 @@ import mean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-mean@deno/
 import variance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-variance@deno/mod.js';
 import stdev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-stdev@deno/mod.js';
 var randGumbel = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-gumbel' ).factory;
-import gumbel from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel@v0.3.0-deno/mod.js';
+import gumbel from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gumbel@deno/mod.js';
 
 // Set the parameters of the Gumbel distribution:
 var mu = 30.0;   // Location parameter (e.g., average annual maximum temperature in °C)
