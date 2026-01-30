@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-12-02)
+## 0.3.0 (2026-01-30)
 
 <section class="features">
 
@@ -43,9 +43,9 @@
 
 ### Closed Issues
 
-A total of 20 issues were closed in this release:
+A total of 21 issues were closed in this release:
 
-[#3644](https://github.com/stdlib-js/stdlib/issues/3644), [#3645](https://github.com/stdlib-js/stdlib/issues/3645), [#3646](https://github.com/stdlib-js/stdlib/issues/3646), [#3647](https://github.com/stdlib-js/stdlib/issues/3647), [#3648](https://github.com/stdlib-js/stdlib/issues/3648), [#3649](https://github.com/stdlib-js/stdlib/issues/3649), [#3650](https://github.com/stdlib-js/stdlib/issues/3650), [#3651](https://github.com/stdlib-js/stdlib/issues/3651), [#3652](https://github.com/stdlib-js/stdlib/issues/3652), [#3653](https://github.com/stdlib-js/stdlib/issues/3653), [#3654](https://github.com/stdlib-js/stdlib/issues/3654), [#3655](https://github.com/stdlib-js/stdlib/issues/3655), [#3656](https://github.com/stdlib-js/stdlib/issues/3656), [#3657](https://github.com/stdlib-js/stdlib/issues/3657), [#5424](https://github.com/stdlib-js/stdlib/issues/5424), [#5425](https://github.com/stdlib-js/stdlib/issues/5425), [#5426](https://github.com/stdlib-js/stdlib/issues/5426), [#5427](https://github.com/stdlib-js/stdlib/issues/5427), [#5429](https://github.com/stdlib-js/stdlib/issues/5429), [#7454](https://github.com/stdlib-js/stdlib/issues/7454)
+[#3644](https://github.com/stdlib-js/stdlib/issues/3644), [#3645](https://github.com/stdlib-js/stdlib/issues/3645), [#3646](https://github.com/stdlib-js/stdlib/issues/3646), [#3647](https://github.com/stdlib-js/stdlib/issues/3647), [#3648](https://github.com/stdlib-js/stdlib/issues/3648), [#3649](https://github.com/stdlib-js/stdlib/issues/3649), [#3650](https://github.com/stdlib-js/stdlib/issues/3650), [#3651](https://github.com/stdlib-js/stdlib/issues/3651), [#3652](https://github.com/stdlib-js/stdlib/issues/3652), [#3653](https://github.com/stdlib-js/stdlib/issues/3653), [#3654](https://github.com/stdlib-js/stdlib/issues/3654), [#3655](https://github.com/stdlib-js/stdlib/issues/3655), [#3656](https://github.com/stdlib-js/stdlib/issues/3656), [#3657](https://github.com/stdlib-js/stdlib/issues/3657), [#5424](https://github.com/stdlib-js/stdlib/issues/5424), [#5425](https://github.com/stdlib-js/stdlib/issues/5425), [#5426](https://github.com/stdlib-js/stdlib/issues/5426), [#5427](https://github.com/stdlib-js/stdlib/issues/5427), [#5429](https://github.com/stdlib-js/stdlib/issues/5429), [#7454](https://github.com/stdlib-js/stdlib/issues/7454), [#9567](https://github.com/stdlib-js/stdlib/issues/9567)
 
 </section>
 
@@ -57,6 +57,9 @@ A total of 20 issues were closed in this release:
 
 <details>
 
+-   [`94692a4`](https://github.com/stdlib-js/stdlib/commit/94692a42667fa49bcd4c25abf5e717ab4c7f904c) - **chore:** use format instead of string concatenation [(#9863)](https://github.com/stdlib-js/stdlib/pull/9863) _(by Om-A-osc)_
+-   [`af9f6dc`](https://github.com/stdlib-js/stdlib/commit/af9f6dcb8d83eaf080cdda5828eb9a27cf182378) - **test:** remove duplicate test cases in `stats/base/dists/gumbel` packages _(by Philipp Burckhardt)_
+-   [`a7a77a7`](https://github.com/stdlib-js/stdlib/commit/a7a77a7ba28bc0f55275db3a77a0117f0679b317) - **test:** remove duplicate NaN test cases in normal mean [(#9588)](https://github.com/stdlib-js/stdlib/pull/9588) _(by Suyash Pathak)_
 -   [`88fe77a`](https://github.com/stdlib-js/stdlib/commit/88fe77a2f059149b803f51d1a787894c7670798b) - **docs:** fix example code in namespace TypeScript declarations _(by Philipp Burckhardt)_
 -   [`97218a1`](https://github.com/stdlib-js/stdlib/commit/97218a12e1d5ec1479a5b39ac4d32318c372e922) - **docs:** fix TSDoc example code return annotations _(by Philipp Burckhardt)_
 -   [`0f21a37`](https://github.com/stdlib-js/stdlib/commit/0f21a37f076bf26a2c6c7f0acf08e6f2d1be9004) - **docs:** replace manual `for` loop in examples [(#8076)](https://github.com/stdlib-js/stdlib/pull/8076) _(by Harsh Yadav)_
@@ -128,7 +131,7 @@ A total of 20 issues were closed in this release:
 
 ### Contributors
 
-A total of 12 people contributed to this release. Thank you to the following contributors:
+A total of 14 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
@@ -137,8 +140,10 @@ A total of 12 people contributed to this release. Thank you to the following con
 -   Karan Anand
 -   Nakul Krishnakumar
 -   Nishchay Rajput
+-   Om-A-osc
 -   Philipp Burckhardt
 -   Shabareesh Shetty
+-   Suyash Pathak
 -   Vinit Pandit
 -   Vivek Maurya
 -   olenkabilonizhka
