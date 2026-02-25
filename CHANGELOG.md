@@ -2,6 +2,49 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-02-25)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`e5fc414`](https://github.com/stdlib-js/stdlib/commit/e5fc414b47afe395178b88858a9731651f409b46) - **chore:** fix JSDoc and spacing issues _(by Philipp Burckhardt)_
+-   [`b7879ad`](https://github.com/stdlib-js/stdlib/commit/b7879adce2d3bf7a6a1d4e626fd60172b3e33155) - **docs:** fix missing and malformed section closing tags in README files _(by Philipp Burckhardt)_
+-   [`7f69289`](https://github.com/stdlib-js/stdlib/commit/7f69289b72f9026099def38e09c93ee50068b056) - **bench:** update random value generation for `stats/base/dists/gumbel/mean` [(#10363)](https://github.com/stdlib-js/stdlib/pull/10363) _(by Bhargav Dabhade)_
+-   [`ac2de21`](https://github.com/stdlib-js/stdlib/commit/ac2de219ef2fb87ceb61360e6c267c5ab1e3cdbb) - **style:** replace erroneous tab character with space _(by Philipp Burckhardt)_
+-   [`f9c61b1`](https://github.com/stdlib-js/stdlib/commit/f9c61b1b1f411ee4b15cf97b5cae853500bc6483) - **bench:** refactor to use string interpolation in `stats/base/dists/gumbel/ctor` [(#10397)](https://github.com/stdlib-js/stdlib/pull/10397) _(by Lokesh Ranjan)_
+-   [`4126555`](https://github.com/stdlib-js/stdlib/commit/412655574507fcca6df462c015ab741d7353fec0) - **bench:** update random value generation for `stats/base/dists/gumbel/skewness` [(#10261)](https://github.com/stdlib-js/stdlib/pull/10261) _(by Bhargav Dabhade)_
+-   [`46aeb95`](https://github.com/stdlib-js/stdlib/commit/46aeb956e694d0e7fe1fd1a95a706d230c7bc4a9) - **bench:** update random value generation for `stats/base/dists/gumbel/stdev` [(#10241)](https://github.com/stdlib-js/stdlib/pull/10241) _(by Bhargav Dabhade, Philipp Burckhardt)_
+-   [`1d869c7`](https://github.com/stdlib-js/stdlib/commit/1d869c731b86a36a2463698a060cdfb6d2b401f2) - **bench:** update random value generation for stats/base/dists/gumbel/variance [(#10242)](https://github.com/stdlib-js/stdlib/pull/10242) _(by Bhargav Dabhade, Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 3 people contributed to this release. Thank you to the following contributors:
+
+-   Bhargav Dabhade
+-   Lokesh Ranjan
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.1">
 
 ## 0.3.1 (2026-02-08)
