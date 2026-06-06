@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-06)
+## Unreleased (2026-06-06)
 
 <section class="commits">
 
@@ -12,6 +12,11 @@
 
 <details>
 
+-   [`bfca061`](https://github.com/stdlib-js/stdlib/commit/bfca0616aed6f5970ccd9ae204c2b5519a221fb1) - **docs:** update `stats/base/dists/gumbel` TypeScript declarations [(#12602)](https://github.com/stdlib-js/stdlib/pull/12602) _(by stdlib-bot)_
+-   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
+-   [`faef343`](https://github.com/stdlib-js/stdlib/commit/faef34302cc1067c306c01763973ce53fc4933e3) - **style:** use explicit float literal in `stats/base/dists/gumbel/cdf` [(#12379)](https://github.com/stdlib-js/stdlib/pull/12379) _(by Philipp Burckhardt)_
+-   [`7b81718`](https://github.com/stdlib-js/stdlib/commit/7b81718b12f5f50895bc6f963f1869c1be63e6b6) - **docs:** correct parameter prose in `stats/base/dists/gumbel/mgf` doc comments [(#12007)](https://github.com/stdlib-js/stdlib/pull/12007) _(by Philipp Burckhardt)_
+-   [`01ddffb`](https://github.com/stdlib-js/stdlib/commit/01ddffb2a994e58185114b2c17725c86f35c6a64) - **docs:** propagate recent fixes across `stats/base/dists` and `lapack/base` [(#11999)](https://github.com/stdlib-js/stdlib/pull/11999) _(by Philipp Burckhardt, Athan Reines)_
 -   [`39b17ab`](https://github.com/stdlib-js/stdlib/commit/39b17ab685076fff0b0b7965494a3d7d01c713ed) - **refactor:** change ordering of checks to reflect parameter order [(#11884)](https://github.com/stdlib-js/stdlib/pull/11884) _(by Philipp Burckhardt)_
 -   [`187e141`](https://github.com/stdlib-js/stdlib/commit/187e141098635f0f2edf0f6f1289e06473ae7fcd) - **chore:** add missing `npm` engine constraint to `stats/base/dists/*/ctor` [(#11686)](https://github.com/stdlib-js/stdlib/pull/11686) _(by Philipp Burckhardt)_
 -   [`9a51841`](https://github.com/stdlib-js/stdlib/commit/9a51841213eb13adbd6b8fe36d96c00aac9fbb17) - **bench:** refactor to use string interpolation in `stats/base` [(#11393)](https://github.com/stdlib-js/stdlib/pull/11393) _(by Karan Anand)_
