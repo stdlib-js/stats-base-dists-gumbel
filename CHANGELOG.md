@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-01)
+## Unreleased (2026-09-21)
 
 <section class="commits">
 
@@ -12,6 +12,12 @@
 
 <details>
 
+-   [`d971ff2`](https://github.com/stdlib-js/stdlib/commit/d971ff2c086ec34c8be64585c26a5a2782a8cfa4) - **test:** migrate `stats/base/dists/gumbel/mean` to ULP-based assertions [(#15081)](https://github.com/stdlib-js/stdlib/pull/15081) _(by Athan Reines)_
+-   [`ef0f47d`](https://github.com/stdlib-js/stdlib/commit/ef0f47d5ed5b44dae5c49825a51b4e921a49cd1c) - **test:** migrate `stats/base/dists/gumbel/variance` to ULP-based assertions [(#14995)](https://github.com/stdlib-js/stdlib/pull/14995) _(by Athan Reines)_
+-   [`2368233`](https://github.com/stdlib-js/stdlib/commit/236823325d12f31c5b6d4b80331d63b73a4282fe) - **test:** migrate `stats/base/dists/gumbel/pdf` to ULP-based assertions [(#14942)](https://github.com/stdlib-js/stdlib/pull/14942) _(by Athan Reines)_
+-   [`511d48f`](https://github.com/stdlib-js/stdlib/commit/511d48f3331e29e9baf84508abe30f3d083aad9a) - **test:** migrate `stats/base/dists/gumbel/cdf` to ULP-based assertions [(#14888)](https://github.com/stdlib-js/stdlib/pull/14888) _(by Philipp Burckhardt)_
+-   [`9a8b630`](https://github.com/stdlib-js/stdlib/commit/9a8b63016a20fc7005994afc7b293f98dd1dd7c0) - **test:** migrate `stats/base/dists/gumbel/stdev` to ULP-based assertions [(#14811)](https://github.com/stdlib-js/stdlib/pull/14811) _(by Athan Reines)_
+-   [`fc55a2c`](https://github.com/stdlib-js/stdlib/commit/fc55a2cffef5f88c3f2eda7441ea696c9b9b0a89) - **test:** migrate `stats/base/dists/gumbel/median` to ULP-based assertions [(#14649)](https://github.com/stdlib-js/stdlib/pull/14649) _(by Athan Reines)_
 -   [`10ee0a5`](https://github.com/stdlib-js/stdlib/commit/10ee0a56ed60ae3d051ff0426b8e203a29c44cdc) - **chore:** clean-up [(#13754)](https://github.com/stdlib-js/stdlib/pull/13754) _(by Philipp Burckhardt)_
 -   [`caa6641`](https://github.com/stdlib-js/stdlib/commit/caa664132db8e198b76a35c688d6c326b6614673) - **docs:** update descriptions [(#13604)](https://github.com/stdlib-js/stdlib/pull/13604) _(by Philipp Burckhardt, Athan Reines)_
 -   [`4a0c3be`](https://github.com/stdlib-js/stdlib/commit/4a0c3be4719f713b69a8ff6b66cc3b0573bf4444) - **docs:** update Markdown equation elements _(by stdlib-bot)_
