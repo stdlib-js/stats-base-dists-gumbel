@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-21)
+## Unreleased (2026-11-06)
 
 <section class="commits">
 
@@ -12,6 +12,12 @@
 
 <details>
 
+-   [`8f624de`](https://github.com/stdlib-js/stdlib/commit/8f624de7eaf721da6bdb42adc299c4876a856c0f) - **style:** add missing whitespace [(#16522)](https://github.com/stdlib-js/stdlib/pull/16522) _(by Philipp Burckhardt)_
+-   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
+-   [`45b89dc`](https://github.com/stdlib-js/stdlib/commit/45b89dc4b9809816d96cf3176013776cc3575641) - **test:** migrate `stats/base/dists/gumbel/logcdf` to ULP-based assertions [(#15935)](https://github.com/stdlib-js/stdlib/pull/15935) _(by Athan Reines)_
+-   [`25751e9`](https://github.com/stdlib-js/stdlib/commit/25751e90d2d5afacd8bf75dbcbfac85da5d7b166) - **test:** migrate `stats/base/dists/gumbel/quantile` to ULP-based assertions [(#15761)](https://github.com/stdlib-js/stdlib/pull/15761) _(by Athan Reines)_
+-   [`fadc35f`](https://github.com/stdlib-js/stdlib/commit/fadc35f8deea196b87b23910c4188da05644f393) - **test:** migrate `stats/base/dists/gumbel/logpdf` to ULP-based assertions [(#15727)](https://github.com/stdlib-js/stdlib/pull/15727) _(by Athan Reines)_
+-   [`0544c4c`](https://github.com/stdlib-js/stdlib/commit/0544c4c95f7916a779e4e7d6d2e4cc0e5840732f) - **test:** migrate `stats/base/dists/gumbel/entropy` to ULP-based assertions [(#15360)](https://github.com/stdlib-js/stdlib/pull/15360) _(by Athan Reines)_
 -   [`d971ff2`](https://github.com/stdlib-js/stdlib/commit/d971ff2c086ec34c8be64585c26a5a2782a8cfa4) - **test:** migrate `stats/base/dists/gumbel/mean` to ULP-based assertions [(#15081)](https://github.com/stdlib-js/stdlib/pull/15081) _(by Athan Reines)_
 -   [`ef0f47d`](https://github.com/stdlib-js/stdlib/commit/ef0f47d5ed5b44dae5c49825a51b4e921a49cd1c) - **test:** migrate `stats/base/dists/gumbel/variance` to ULP-based assertions [(#14995)](https://github.com/stdlib-js/stdlib/pull/14995) _(by Athan Reines)_
 -   [`2368233`](https://github.com/stdlib-js/stdlib/commit/236823325d12f31c5b6d4b80331d63b73a4282fe) - **test:** migrate `stats/base/dists/gumbel/pdf` to ULP-based assertions [(#14942)](https://github.com/stdlib-js/stdlib/pull/14942) _(by Athan Reines)_
